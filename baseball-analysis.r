@@ -4,7 +4,7 @@ library(readxl)
 library(mgcv)
 library(car)
 
-baseball <- read_excel("/Users/Jinhao 1/Documents/University/MATH3821/Assignment 2/Baseball.xlsx", 1)
+baseball <- read_excel("Baseball.xlsx", 1)
 
 baseball$swap <- (baseball$Team_1986 != baseball$Team_1987)
 
